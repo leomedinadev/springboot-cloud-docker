@@ -1,0 +1,18 @@
+# Los tests no necesitan Config Server, Eureka ni MySQL
+spring:
+  application:
+    name: sbcd-vuelos-test
+  cloud:
+    config:
+      enabled: false
+  datasource:
+    url: jdbc:h2:mem:viajes;MODE=MySQL
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+eureka:
+  client:
+    enabled: false

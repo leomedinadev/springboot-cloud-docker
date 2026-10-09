@@ -8,7 +8,7 @@
         <version>2.6.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ec.com.sbcd</groupId>
+    <groupId>ec.com.leodev.sbcd</groupId>
     <artifactId>sbcd-contactos-root</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sbcd-contactos-root</name>
@@ -74,6 +74,11 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

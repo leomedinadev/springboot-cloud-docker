@@ -5,5 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/leo7medina/springboot-cloud-docker
-          # default-label: main  ->
+          uri: ${CONFIG_GIT_URI:https://github.com/leomedinadev/springboot-cloud-docker}
+          # La rama principal de este repo es master y los archivos están en una subcarpeta
+          default-label: master
+          search-paths: config_files_services
