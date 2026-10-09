@@ -8,7 +8,7 @@
         <version>2.6.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ec.com.server.eureka</groupId>
+    <groupId>ec.com.leodev.sbcd</groupId>
     <artifactId>server-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>server-eureka</name>

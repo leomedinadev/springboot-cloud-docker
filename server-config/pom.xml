@@ -8,7 +8,7 @@
         <version>2.6.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ec.com.server.config</groupId>
+    <groupId>ec.com.leodev.sbcd</groupId>
     <artifactId>server-config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>server-config</name>

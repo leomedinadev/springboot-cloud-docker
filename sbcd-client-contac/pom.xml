@@ -8,7 +8,7 @@
         <version>2.6.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ec.com.sbcd.client.contact</groupId>
+    <groupId>ec.com.leodev.sbcd</groupId>
     <artifactId>sbcd-client-contac</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sbcd-client-contac</name>

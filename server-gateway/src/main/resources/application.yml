@@ -1,6 +1,9 @@
 spring:
   application:
     name: server-gateway
+  config:
+    # Obligatorio desde Spring Cloud 2020: sin esto la aplicación no arranca
+    import: optional:configserver:http://localhost:8888
   cloud:
     config:
       uri: http://localhost:8888 #Localizacion Spring cloud config
